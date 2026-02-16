@@ -5,7 +5,7 @@ import gdown
 import os
 
 file_id="1VpmAN2DJExQ3wGblX4TLhC2Os9CXjcOC"
-url="https://drive.google.com/file/d/1VpmAN2DJExQ3wGblX4TLhC2Os9CXjcOC/view?usp=drive_link"
+url="https://drive.google.com/file/d/1VpmAN2DJExQ3wGblX4TLhC2Os9CXjcOC/view?usp=sharing"
 model_path="trained_plant_disease_model.keras"
 
 
@@ -56,4 +56,5 @@ elif(app_mode=="DISEASE RECOGNITION"):
         #Reading Labels
         class_name = ['Early_Blight', 'Healthy', 'Late_Blight']
         st.success("Model is Predicting it's a {}".format(class_name[result_index]))
+
 
